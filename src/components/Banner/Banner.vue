@@ -1,6 +1,7 @@
 <script setup>
 import Buttons from '../layouts/Buttons.vue';
 import Container from '../layouts/Container.vue';
+import Pictures from '../layouts/Pictures.vue';
 
 
 </script>
@@ -11,9 +12,7 @@ import Container from '../layouts/Container.vue';
             <!-- right -->
             <div class="w-1/2 h-full flex justify-center items-center">
                 <div class="w-[500px] h-[500px] border-[20px] border-[#444444] rounded-full overflow-hidden">
-                    <picture>
-                        <img src="https://cdn.pixabay.com/photo/2023/11/09/11/50/cat-8377169_1280.jpg" class="w-full h-full">
-                    </picture>
+                    <Pictures source="https://cdn.pixabay.com/photo/2023/11/09/11/50/cat-8377169_1280.jpg" class="w-full h-full" />
                 </div>
             </div>
 
